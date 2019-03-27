@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+body {
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    height: 100vh;
+}
+.navbar {
+    grid-columns: span 2;
+}
+.left-half {
+    background-image: url(//i.imgur.com/b0zmiuL.png);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350vh;
+}
+.right-half {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: EB Garamond;
+}
+.right-half h2 {
+    font-size: 50px;
+    font-family: EB Garamond;
+    margin-bottom: 0;
+}
+.right-half .main-image {
+    width: 20%;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: solid 2px black;
+    margin-bottom: 15px;    
+}
+
+.blog-highlight {
+    display: flex;
+    /*justify-content: flex-start;*/
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.blog-highlight img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: solid 2px black;
+    margin-right: 30px;
+}
+.blog-highlight div {
+    display: flex;
+    flex-direction: column;
+}
+.blog-highlight h3 {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p{
+   padding: 2%; 
+}
